@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.jumbotron{
+   background: #C1DEE8;
+background: -webkit-linear-gradient(68deg, rgba(193, 222, 232, 1) 50%, rgba(251, 217, 185, 1) 100%);
+background: -moz-linear-gradient(68deg, rgba(193, 222, 232, 1) 50%, rgba(251, 217, 185, 1) 100%);
+background: linear-gradient(68deg, rgba(193, 222, 232, 1) 50%, rgba(251, 217, 185, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#C1DEE8", endColorstr="#FBD9B9", GradientType=0);
+    height: 65vh;
+    border-radius: 10px;
+}
+.jumbotron .col:nth-child(1){
+    margin: 50px auto;
+    align-items:flex-start;
+    gap: 50px 50px;
+    padding: 20px;
+}
+.jumbotron .col:nth-child(1) h4{
+    font-size: 3rem;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 50px;
+}
+.jumbotron .col:nth-child(2){
+    position: relative;
+    z-index: 1px;
+}
+.jumbotron .col:nth-child(2) img{
+    width: 100%;
+    position: relative;
+    z-index: 2px;
+}
+.about .col:nth-child(2) p{
+text-align: justify;
+}
+.img-icon{
+    width: 15%;
+}
+.text-card-about{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+}
+.card-about{
+    padding: 10px;
+}
+.about-card{
+padding: 20px;
+display: flex;
+flex-direction: column;
+
+border-radius: 10px;
+}
+.text-card-deskripsi{
+    text-align:left;
+    font-size: 16px;
+    word-spacing: 0px;
+
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+
+.card-unit{
+    width: 100%;
+    padding: 10px;
+    background-color:rgba(238, 238, 238, 0.566);
+    box-sizing: border-box;
+    display: flex;
+    position:relative;
+    z-index: 1;
+    border-radius: 8px;
+    border: 1px solid rgb(174, 174, 174);
+    box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+}
+.card-unit img{
+    width: 100%;
+    height: 45vh;
+    border-radius: 8px;
+position: relative;
+z-index: 4;
+}
+.swiper-slide{
+    display: flex !important;
+    width: 40% !important;
+}
+.swiper-wrapper{
+    margin-bottom: 90px;
+}
+.footer{
+    background-color: #C1DEE8;
+    padding: 30px;
+    border-radius: 10px;
+        border: 1px solid rgb(174, 174, 174);
+    box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+}
+.footer .contac{
+width: 25%;
+margin-top: 20px;
+background-color: #FBD9B9;
+color: black;
+text-align: center;
+height: 40px;
+transition: 0.5s;
+}
+.footer .contac:hover{
+     border: 1px solid rgb(174, 174, 174);
+    box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 15px 12px -1px rgba(0,0,0,0.45);
+}
+@media (max-width: 375.98px) { 
+
+.jumbotron{
+    position: relative;
+    z-index: 1;
+}
+.jumbotron .col:nth-child(1){
+    margin:10px;
+    gap: 40px 0px;
+    align-items:flex-start;
+    padding: 20px;
+    position: relative;
+    z-index: 20;
+}
+.jumbotron .col:nth-child(1) h4{
+    font-size: 2em;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 40px;
+    color: white;
+}
+.jumbotron .col:nth-child(2){
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    opacity: 80%;
+}
+}
+/* Smartphone standar (360px - 480px) */
+@media (min-width: 360px) and (max-width: 480px) {
+    .jumbotron{
+    position: relative;
+    z-index: 1;
+}
+.jumbotron .col:nth-child(1){
+    margin:10px;
+    gap: 40px 0px;
+    align-items:flex-start;
+    padding: 20px;
+    position: relative;
+    z-index: 20;
+}
+.jumbotron .col:nth-child(1) h4{
+    font-size: 2em;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 40px;
+    color: white;
+}
+.jumbotron .col:nth-child(2){
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    opacity: 80%;
+}
+.swiper-slide{
+    display: flex !important;
+    width: 100% !important;
+}
+.swiper-wrapper{
+    margin-bottom: 90px;
+}
+.footer .contac{
+width: 50%;
+margin-top: 20px;
+background-color: #FBD9B9;
+color: black;
+text-align: center;
+height: 40px;
+transition: 0.5s;
+}
+}
+
