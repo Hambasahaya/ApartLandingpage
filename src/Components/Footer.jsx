@@ -9,7 +9,7 @@ export default function Footer(){
                 <h5>Hubungi kami Sekarang!</h5>
             </div>
             <div className="col">
-                 <a href="/" class="btn btn-outline-secondary rounded-5 contac">Contac Us</a>
+                 <a href="https://wa.link/xzphub" class="btn btn-outline-secondary rounded-5 contac">Contac Us</a>
             </div>
         </div>
         </>
