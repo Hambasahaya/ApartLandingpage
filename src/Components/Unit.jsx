@@ -143,6 +143,41 @@ export default function Unit(){
                     <img src="/img/show18.jpg" alt="" srcset="" />
                 </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show19.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show20.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show21.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show22.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show23.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show24.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                 <div className="card-unit">
+                    <img src="/img/show25.jpg" alt="" srcset="" />
+                </div>
+                </SwiperSlide>
             </Swiper>
             </div>
         </div>
