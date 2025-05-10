@@ -21,7 +21,7 @@ export default function Navbar(){
         </li>
       </ul>
       <ul className="navbar-nav ms-auto">
-        <a href="https://wa.link/xzphub" class="btn btn-outline-secondary rounded-5">Contac Us</a>
+        <a href="https://wa.link/ldz53q" class="btn btn-outline-secondary rounded-5">Contac Us</a>
     </ul>
     </div>
 </nav>
